@@ -49,5 +49,7 @@ playlist = {
 total_duration = 0
 for song in playlist['songs']:
     total_duration += song['duration']
-    
+
 print("Total song duration : {}".format(total_duration))
+
+
